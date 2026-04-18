@@ -1,6 +1,5 @@
 import { motion } from 'motion/react';
 import { Zap, Shield, Clock } from 'lucide-react';
-import heroImage from 'figma:asset/076f168b236cd9035e688d1d3b5ed734392ee032.png';
 
 export function Hero() {
   return (
@@ -105,11 +104,7 @@ export function Hero() {
         >
           <div className="absolute -inset-4 bg-gradient-to-r from-yellow-400 to-blue-500 rounded-3xl blur-2xl opacity-20"></div>
           <div className="relative bg-white/10 backdrop-blur-sm border border-white/20 rounded-3xl overflow-hidden shadow-2xl">
-            <img 
-              src={heroImage} 
-              alt="MD Elétrica - Oficina" 
-              className="w-full h-auto object-cover"
-            />
+            
             <div className="absolute inset-0 bg-gradient-to-t from-blue-900/80 via-transparent to-transparent"></div>
             <div className="absolute bottom-6 left-6 right-6">
               <div className="bg-white/95 backdrop-blur-sm rounded-2xl p-4 shadow-xl">
