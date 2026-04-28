@@ -3,7 +3,7 @@ import { Award, Users, Wrench, TrendingUp } from 'lucide-react';
 
 export function About() {
   const stats = [
-    { icon: Award, value: '10+', label: 'Anos de Experiência' },
+    { icon: Award, value: '10+', label: 'Experiência' },
     { icon: Users, value: '500+', label: 'Clientes Satisfeitos' },
     { icon: Wrench, value: '1000+', label: 'Serviços Realizados' },
     { icon: TrendingUp, value: '100%', label: 'Compromisso' },
@@ -61,11 +61,11 @@ export function About() {
             <div className="bg-gradient-to-br from-blue-600 to-blue-800 rounded-3xl p-8 text-white">
               <h3 className="text-3xl mb-6">Nossa História</h3>
               <p className="text-lg text-blue-100 mb-6 leading-relaxed">
-                Fundada há mais de 10 anos, a MD Elétrica nasceu do sonho de oferecer 
+                A MD Elétrica nasceu do sonho de oferecer 
                 serviços elétricos de qualidade com segurança e compromisso.
               </p>
               <p className="text-lg text-blue-100 leading-relaxed">
-                Ao longo dos anos, conquistamos a confiança de centenas de clientes, 
+                Conquistamos a confiança de centenas de clientes, 
                 sempre priorizando a excelência em cada projeto, seja residencial, 
                 comercial ou industrial.
               </p>

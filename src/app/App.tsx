@@ -47,7 +47,7 @@ export default function App() {
               <button onClick={() => scrollToSection('contact')} className="text-gray-700 hover:text-blue-600 transition-colors">
                 Contato
               </button>
-              <a href="tel:+5585999999999" className="bg-gradient-to-r from-blue-600 to-blue-700 text-white px-6 py-2 rounded-full hover:shadow-lg transition-shadow">
+              <a href="tel:+5585981429679" className="bg-gradient-to-r from-blue-600 to-blue-700 text-white px-6 py-2 rounded-full hover:shadow-lg transition-shadow">
                 Ligar Agora
               </a>
             </div>
@@ -76,7 +76,7 @@ export default function App() {
               <button onClick={() => scrollToSection('contact')} className="block w-full text-left text-gray-700 hover:text-blue-600 transition-colors py-2">
                 Contato
               </button>
-              <a href="tel:+5585999999999" className="block bg-gradient-to-r from-blue-600 to-blue-700 text-white px-6 py-2 rounded-full text-center">
+              <a href="tel:+5585981429679" className="block bg-gradient-to-r from-blue-600 to-blue-700 text-white px-6 py-2 rounded-full text-center">
                 Ligar Agora
               </a>
             </div>

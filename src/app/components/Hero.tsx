@@ -37,7 +37,7 @@ export function Hero() {
 
           <p className="text-xl text-gray-300 mb-8 leading-relaxed">
             Instalações, manutenções e reparos elétricos com segurança e profissionalismo. 
-            Atendemos Fortim e região com excelência há mais de 10 anos.
+            Atendemos Fortim e região com excelência.
           </p>
 
           <div className="flex flex-wrap gap-4 mb-12">
@@ -48,10 +48,10 @@ export function Hero() {
               Solicitar Orçamento
             </a>
             <a 
-              href="tel:+5585999999999" 
+              href="tel:+5585981429679" 
               className="bg-white/10 backdrop-blur-sm border border-white/20 text-white px-8 py-4 rounded-full font-bold hover:bg-white/20 transition-all"
             >
-              (85) 99999-9999
+              (85) 98142-9679
             </a>
           </div>
 

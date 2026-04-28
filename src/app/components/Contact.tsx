@@ -14,7 +14,7 @@ export function Contact() {
     e.preventDefault();
     // Aqui você pode adicionar a lógica para enviar o formulário
     const whatsappMessage = `Olá! Meu nome é ${formData.name}. ${formData.message}`;
-    const whatsappUrl = `https://wa.me/5585999999999?text=${encodeURIComponent(whatsappMessage)}`;
+    const whatsappUrl = `https://wa.me/5585981429679?text=${encodeURIComponent(whatsappMessage)}`;
     window.open(whatsappUrl, '_blank');
   };
 
@@ -74,8 +74,8 @@ export function Contact() {
                   </div>
                   <div>
                     <h4 className="text-sm uppercase tracking-wider text-gray-500 mb-1">Telefone</h4>
-                    <a href="tel:+5585999999999" className="text-gray-800 hover:text-blue-600 transition-colors">
-                      (85) 99999-9999
+                    <a href="tel:+5585981429679" className="text-gray-800 hover:text-blue-600 transition-colors">
+                      (85) 98142-9679
                     </a>
                   </div>
                 </div>
@@ -181,7 +181,7 @@ export function Contact() {
                     value={formData.phone}
                     onChange={handleChange}
                     className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:border-blue-600 focus:ring-2 focus:ring-blue-600/20 outline-none transition-all"
-                    placeholder="(85) 99999-9999"
+                    placeholder="(85) 98142-9679"
                   />
                 </div>
 

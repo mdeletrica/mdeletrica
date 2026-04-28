@@ -69,8 +69,8 @@ export function Footer() {
               </li>
               <li className="flex items-center gap-2">
                 <Phone size={20} className="flex-shrink-0" />
-                <a href="tel:+5585999999999" className="text-gray-400 hover:text-blue-400 transition-colors">
-                  (85) 99999-9999
+                <a href="tel:+5585981429679" className="text-gray-400 hover:text-blue-400 transition-colors">
+                  (85) 98142-9679
                 </a>
               </li>
               <li className="flex items-center gap-2">
@@ -90,30 +90,7 @@ export function Footer() {
           </p>
           
           <div className="flex items-center gap-4">
-            <a 
-              href="https://facebook.com" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="bg-gray-800 w-10 h-10 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors"
-            >
-              <Facebook size={20} />
-            </a>
-            <a 
-              href="https://instagram.com" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="bg-gray-800 w-10 h-10 rounded-full flex items-center justify-center hover:bg-pink-600 transition-colors"
-            >
-              <Instagram size={20} />
-            </a>
-            <a 
-              href="https://youtube.com" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="bg-gray-800 w-10 h-10 rounded-full flex items-center justify-center hover:bg-red-600 transition-colors"
-            >
-              <Youtube size={20} />
-            </a>
+            
           </div>
         </div>
 
@@ -122,10 +99,10 @@ export function Footer() {
           <p className="text-gray-900 font-bold text-lg mb-2">⚡ Emergências 24 horas</p>
           <p className="text-gray-800">Problemas elétricos urgentes? Ligue agora!</p>
           <a 
-            href="tel:+5585999999999" 
+            href="tel:+5585981429679" 
             className="inline-block mt-4 bg-gray-900 text-white px-8 py-3 rounded-full font-bold hover:bg-gray-800 transition-colors"
           >
-            (85) 99999-9999
+            (85) 98142-9679
           </a>
         </div>
       </div>
